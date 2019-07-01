@@ -1,3 +1,8 @@
+
+// *DESCRIZIONE*: Calcolo prezzo del treno:
+// Il programma dovrà chiedere all’utente il numero di chilometri e l’età e dovrà calcolare il prezzo totale del viaggio.
+// Il prezzo del biglietto è definito in base ai km (0.21 €cent al km) ma c’è uno sconto del 20% per i minorenni e del 40% per gli over 65.
+
 // elemento biglietto
 var biglietto = document.getElementById('mio-id');
 console.log(biglietto);
@@ -21,10 +26,12 @@ if (eta < 18){
 }
 
 if (eta > 65) {
+  console.log('ho ho più di 65 anni');
    costobiglietto = costotot - ((costotot / 100) * 40);
  }
 
 else {
+  console.log('sono adulto!');
   costobiglietto = costotot;
 }
 
