@@ -1,5 +1,5 @@
 // elemento biglietto
-var biglietto = document.getElementId('mio-id');
+var biglietto = document.getElementById('mio-id');
 console.log(biglietto);
 // dichiaro var
 var km, eta;
