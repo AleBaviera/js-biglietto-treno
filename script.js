@@ -25,8 +25,8 @@ if (eta < 18){
   console.log(costobiglietto);
 }
 
-if (eta > 65) {
-  console.log('ho ho più di 65 anni');
+ else if (eta > 65) {
+  console.log(' ho più di 65 anni');
    costobiglietto = costotot - ((costotot / 100) * 40);
  }
 
@@ -37,4 +37,4 @@ else {
 
 // visualizzo costo biglietto
 
-biglietto.innerHTML = 'Il costo del tuo biglietto è ' + costobiglietto;
+biglietto.innerHTML = 'Il costo del tuo biglietto è ' + costobiglietto + ' euro';
